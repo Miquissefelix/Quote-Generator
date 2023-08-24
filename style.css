@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(imagem/pexels-bich-tran-636243.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*Mother divparent*/
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+    border-radius: 15px;
+
+    background-color: white;
+    width: 800px;
+    height: 400px;
+}
+
+
+/*Nav*/
+.navbar{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+    
+}
+.react{
+    margin-left: 50%;
+    
+}
+
+a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+  
+}
+
+/*h1*/
+h1{
+    
+
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+/*quote text*/
+p{
+    font-size: 25px;
+}
+
+
+/*buttton*/
+.btn{
+    margin-right: 410px;
+    margin-top: 250px;
+    
+
+}
+.GEtRamndom{
+    margin-left: 200px;
+    margin-top: -60px;
+
+}
+.quote{
+    text-align: center;
+    margin-top: -100px;
+}
+
+
+
+button{
+    font-size: 24px;
+    margin-left: 9px;
+    
+}
+/*estilizacao individual dos icons*/
+.twitter{
+    font-size: 35px;
+    background-color:  #38a1f3;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%; 
+    
+   
+    
+  }
+  .sapp{
+    font-size: 35px;
+    background-color:#25d366 ;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%; 
+  }
+  
+  .fb{
+    font-size: 35px;
+    background-color: #4267b2;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%; 
+  
+  }
+  
+  .instagram{
+    font-size: 35px;
+    background-color: #f56040 ;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%; 
+  }
+  
+  .linkedin{
+    font-size: 35px;
+    background-color:#405de6 ;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%; 
+  }
+  
+  button{
+    border: none;
+   
+  }
+
+  .GEtRamndom{
+    font-size: 30px;
+    position: fixed;
+   
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    
+  
+  
+  }
+
+  /*responsiveness*/
+
+  @media screen and(min-width:450px) {
+    .parent{
+      width: 50px;
+    }
+    
+  }
