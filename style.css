@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
     background-image: url(imagem/pexels-bich-tran-636243.jpg);
     background-size: cover;
     object-fit: cover;
@@ -9,11 +11,10 @@ body{
 }
 /*Mother divparent*/
 .parent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
     margin:  auto;
     border-radius: 15px;
+    display: block;
 
     background-color: white;
     width: 800px;
@@ -29,9 +30,21 @@ body{
     padding-top: 20px;
     
 }
+.gmail{
+  padding-left: 20px;
+}
 .react{
     margin-left: 50%;
     
+}
+.gmail:hover{
+  background-color:rgba(245, 245, 245, 0.111);
+  border-radius: 10px;
+}
+
+.react:hover{
+  background-color:rgba(245, 245, 245, 0.111);
+  border-radius: 10px;
 }
 
 a{
@@ -53,13 +66,16 @@ h1{
 /*quote text*/
 p{
     font-size: 25px;
+    margin-top: 120px;
+    padding-top: 50px;
 }
 
 
 /*buttton*/
 .btn{
     margin-right: 410px;
-    margin-top: 250px;
+    margin-top: 140px;
+    position: relative;
     
 
 }
@@ -70,7 +86,7 @@ p{
 }
 .quote{
     text-align: center;
-    margin-top: -100px;
+    margin-top: -120px;
 }
 
 
