@@ -7,7 +7,7 @@ body{
     background-size: cover;
     object-fit: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 /*Mother divparent*/
 .parent{
@@ -94,6 +94,8 @@ p{
 button{
     font-size: 24px;
     margin-left: 9px;
+    border: none;
+  
     
 }
 /*estilizacao individual dos icons*/
@@ -140,10 +142,7 @@ button{
     border-radius: 50%; 
   }
   
-  button{
-    border: none;
-   
-  }
+  
 
   .GEtRamndom{
     font-size: 30px;
@@ -160,9 +159,42 @@ button{
 
   /*responsiveness*/
 
-  @media screen and(min-width:450px) {
+  @media screen and (max-width:800px) {
     .parent{
-      width: 50px;
+      width: 400px;
+     
+      height: auto;
     }
-    
+    .GEtRamndom{
+      margin-left: -290px;
+      margin-top: -70px;
+  
   }
+  
+button{
+  font-size: 14px;
+  margin-left: 30px;
+  
+  
+}
+
+.btn{
+  margin-right: 11px;
+  margin-top: 130px;
+  position: relative;
+  
+
+}
+.gmail{
+  align-items: center;
+}
+.react{
+   display:none;
+    
+}
+.navbar{
+  padding: 0px;
+}
+  }
+  
+ 
